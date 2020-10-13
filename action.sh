@@ -46,4 +46,4 @@ fi
 git remote rm origin
 git remote add origin "${remote_repo}"
 
-mkdocs gh-deploy --config-file "${CONFIG_FILE}" --force
+mkdocs gh-deploy --verbose --config-file "${CONFIG_FILE}" --force
